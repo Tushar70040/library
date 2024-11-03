@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="lib.css" />
+  </head>
+
+  <body>
+    <div id="heading">
+      <h3>BOOKLIST</h3>
+    </div>
+    <div id="addbutton"><button id="add">ADD BOOK</button></div>
+    <dialog id="dialog">
+      <div id="container">
+        <form id="form">
+          <label class="title">Book name</label>
+          <input type="text" class="input" id="title"/>
+          <label class="title">Author</label>
+          <input type="text" class="input" id="author" />
+          <label class="title">Number</label>
+          <input type="number" class="input" id="number" />
+          <div id="check">
+            <input type="checkbox" id="checkbox" />
+            <label id="clabel">Read</label>
+          </div>
+          <div>
+            <button type="submit" class="lower" id="submit">Sumbit</button>
+            <button type="cancel" class="lower" id="cancel">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </dialog>
+
+    <div id="card"></div>
+
+    <script src="lib.js"></script>
+  </body>
+</html>
